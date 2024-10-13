@@ -1,7 +1,19 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",  // Set baseUrl to root
     "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+      "@/*": ["*"]    // Update paths accordingly
+    },
+    "typeRoots": [
+      "./node_modules/@types" , "./types"
+    ]
+  },
+  "include": ["*"]  
+  // "compilerOptions": {
+  //   "paths": {
+  //     "@/*": ["./src/*"]
+  //   },
+  //   "typeRoots": [
+  //     "./node_modules/@types" , "./types"]
+  // }
 }
