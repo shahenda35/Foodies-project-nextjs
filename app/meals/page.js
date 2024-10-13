@@ -3,7 +3,6 @@ import Link from 'next/link';
 import classes from './page.module.css';
 import MealsGrid from '../../components/meals/meals-grid';
 import { getMeals } from '../../lib/meals';
-import { metadata } from './../layout';
 
 export const metadata = {
   title: 'All Meals',
